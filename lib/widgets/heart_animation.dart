@@ -77,7 +77,7 @@ class _HeartAnimationState extends State<HeartAnimation>
               scale: _scale.value,
               child: const Icon(
                 Icons.favorite,
-                color: Colors.red,
+                color: Colors.orange,
                 size: 40,
               ),
             ),
