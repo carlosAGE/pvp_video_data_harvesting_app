@@ -38,7 +38,7 @@ class _CommentTileState extends State<CommentTile> {
             backgroundColor: Colors.grey,
             child: Text(
               widget.comment.avatar,
-              style: const TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 20),
             ),
           ),
           
@@ -56,7 +56,7 @@ class _CommentTileState extends State<CommentTile> {
                       widget.comment.username,
                       style: const TextStyle(
                         color: Colors.white,
-                        fontSize: 14,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -65,7 +65,7 @@ class _CommentTileState extends State<CommentTile> {
                       _timeAgo(widget.comment.timestamp),
                       style: const TextStyle(
                         color: Colors.grey,
-                        fontSize: 12,
+                        fontSize: 16,
                       ),
                     ),
                   ],
@@ -78,7 +78,7 @@ class _CommentTileState extends State<CommentTile> {
                   widget.comment.text,
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 14,
+                    fontSize: 18,
                   ),
                 ),
                 
@@ -103,7 +103,7 @@ class _CommentTileState extends State<CommentTile> {
                       '${widget.comment.likes + (_isLiked ? 1 : 0)}',
                       style: const TextStyle(
                         color: Colors.grey,
-                        fontSize: 12,
+                        fontSize: 16,
                       ),
                     ),
                     const SizedBox(width: 24),
@@ -113,7 +113,7 @@ class _CommentTileState extends State<CommentTile> {
                         'Reply',
                         style: TextStyle(
                           color: Colors.grey,
-                          fontSize: 12,
+                          fontSize: 16,
                           fontWeight: FontWeight.bold,
                         ),
                       ),

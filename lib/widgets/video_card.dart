@@ -193,7 +193,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   _formatCount(_likeCount),
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 12,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -221,7 +221,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   '12k',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 12,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -249,7 +249,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   'Share',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 12,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -287,7 +287,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   '@${widget.creator}',
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 16,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -296,7 +296,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   widget.title,
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 14,
+                    fontSize: 18,
                     letterSpacing: 1,
                   ),
                   maxLines: 3,
