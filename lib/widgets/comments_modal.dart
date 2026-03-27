@@ -109,7 +109,7 @@ class _CommentsModalState extends State<CommentsModal>
                         'Comments',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 18,
+                          fontSize: 22,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -118,7 +118,7 @@ class _CommentsModalState extends State<CommentsModal>
                         '${_comments.length}',
                         style: const TextStyle(
                           color: Colors.grey,
-                          fontSize: 16,
+                          fontSize: 20,
                         ),
                       ),
                     ],
@@ -158,7 +158,7 @@ class _CommentsModalState extends State<CommentsModal>
                       const CircleAvatar(
                         radius: 16,
                         backgroundColor: Colors.greenAccent,
-                        child: Text('😎', style: TextStyle(fontSize: 16)),
+                        child: Text('😎', style: TextStyle(fontSize: 20)),
                       ),
                       const SizedBox(width: 12),
                       Expanded(

@@ -294,7 +294,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   _formatCount(_likeCount),
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 12,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -322,7 +322,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   '12k',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 12,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -350,7 +350,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   'Share',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 12,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -388,7 +388,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   '@${widget.creator}',
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 16,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -397,7 +397,7 @@ class _VideoCardState extends State<VideoCard> with TickerProviderStateMixin {
                   widget.title,
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 14,
+                    fontSize: 18,
                     letterSpacing: 1,
                   ),
                   maxLines: 3,
@@ -520,7 +520,7 @@ class _CommentTileState extends State<CommentTile> {
             backgroundColor: Colors.grey,
             child: Text(
               widget.comment.avatar,
-              style: const TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 20),
             ),
           ),
 
@@ -538,14 +538,14 @@ class _CommentTileState extends State<CommentTile> {
                       widget.comment.username,
                       style: const TextStyle(
                         color: Colors.white,
-                        fontSize: 14,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     const SizedBox(width: 8),
                     Text(
                       _timeAgo(widget.comment.timestamp),
-                      style: const TextStyle(color: Colors.grey, fontSize: 12),
+                      style: const TextStyle(color: Colors.grey, fontSize: 16),
                     ),
                   ],
                 ),
@@ -555,7 +555,7 @@ class _CommentTileState extends State<CommentTile> {
                 // Comment text
                 Text(
                   widget.comment.text,
-                  style: const TextStyle(color: Colors.white, fontSize: 14),
+                  style: const TextStyle(color: Colors.white, fontSize: 18),
                 ),
 
                 const SizedBox(height: 8),
@@ -577,7 +577,7 @@ class _CommentTileState extends State<CommentTile> {
                     const SizedBox(width: 6),
                     Text(
                       '${widget.comment.likes + (_isLiked ? 1 : 0)}',
-                      style: const TextStyle(color: Colors.grey, fontSize: 12),
+                      style: const TextStyle(color: Colors.grey, fontSize: 16),
                     ),
                     const SizedBox(width: 24),
                     GestureDetector(
@@ -586,7 +586,7 @@ class _CommentTileState extends State<CommentTile> {
                         'Reply',
                         style: TextStyle(
                           color: Colors.grey,
-                          fontSize: 12,
+                          fontSize: 16,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -773,7 +773,7 @@ class _CommentsModalState extends State<CommentsModal>
                         'Comments',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 18,
+                          fontSize: 22,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -782,7 +782,7 @@ class _CommentsModalState extends State<CommentsModal>
                         '${_comments.length}',
                         style: const TextStyle(
                           color: Colors.grey,
-                          fontSize: 16,
+                          fontSize: 20,
                         ),
                       ),
                     ],
@@ -820,7 +820,7 @@ class _CommentsModalState extends State<CommentsModal>
                       const CircleAvatar(
                         radius: 16,
                         backgroundColor: Colors.greenAccent,
-                        child: Text('😎', style: TextStyle(fontSize: 16)),
+                        child: Text('😎', style: TextStyle(fontSize: 20)),
                       ),
                       const SizedBox(width: 12),
                       Expanded(
